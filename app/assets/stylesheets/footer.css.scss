@@ -1,6 +1,6 @@
 /* footer */
 
-footer {
+/* footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
@@ -27,4 +27,31 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+*/
+
+$lightGray: #999;
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: $lightGray;
+  a {
+    color: #555;
+    &:hover { 
+      color: #222;
+    }
+  }  
+  small { 
+    float: left; 
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
 }
